@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">撸至深</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="blank" />
+
+    <string name="menu_navigation">导航</string>
+    <string name="area_index">首页</string>
+    <string name="area_video">视频区</string>
+    <string name="area_picture">图片区</string>
+    <string name="area_text">文字区</string>
+    <string name="area_torrent">种子区</string>
+    <string name="menu_china_video">国产自拍</string>
+    <string name="menu_europe_video">欧美视频</string>
+    <string name="menu_japan_video">日本无码</string>
+    <string name="menu_family_pic">家庭自拍</string>
+    <string name="menu_asia_pic">亚洲情色</string>
+    <string name="menu_europe_pic">欧美色图</string>
+    <string name="menu_evil_pics">邪恶漫画</string>
+    <string name="menu_gif">动态图片</string>
+    <string name="menu_excited_novel">都市激情</string>
+    <string name="menu_family_mess_novel">乱伦文学</string>
+    <string name="menu_school_novel">校园春色</string>
+    <string name="menu_lewd_wife_novel">淫荡人妻</string>
+    <string name="menu_funny_joke">茶余饭后</string>
+    <string name="change_skin">更换皮肤</string>
+    <string name="settings">设置</string>
+    <string name="download_manager">下载管理</string>
+    <string name="favorites">收藏夹</string>
+    <string name="about">关于我们</string>
+    <string name="clear_cache">清除缓存</string>
+
+    <string name="choose_skin">选择一款皮肤</string>
+    <string name="skin_blue">清爽蓝</string>
+    <string name="skin_red">热血红</string>
+    <string name="skin_purple">魅力紫</string>
+    <string name="skin_deepOrange">欢乐橙</string>
+    <string name="skin_green">清新绿</string>
+    <string name="skin_brown">高雅棕</string>
+    <string name="skin_teal">松柏青</string>
+    <string name="skin_pink">可爱粉</string>
+    <string name="skin_grey">低调灰</string>
+    <string name="skin_black">护眼黑</string>
+
+    <string name="press_back_exit">再按一次退出</string>
+    <string name="exit">退出</string>
+    <string name="confirm_exit">真的要退出吗?</string>
+    <string name="yes">是啦</string>
+    <string name="no">不是哦</string>
+    <string name="ok">OK</string>
+    <string name="cancel">取消</string>
+    <string name="back">返回</string>
+
+    <string name="resolving_video_address">解析视频地址中，请稍等。。。</string>
+    <string name="loading_please_wait">加载中，请稍等。。。</string>
+    <string name="play_video_failure">播放失败</string>
+    <string name="load_pic_fail">加载图片失败</string>
+    <string name="load_data_fail">加载数据失败</string>
+    <string name="get_video_data_failure">获取视频数据失败。</string>
+
+    <string name="download_this_video">下载此视频</string>
+    <string name="download_this_item_pic">下载此项全部图片</string>
+    <string name="download_this_comics">下载此漫画</string>
+    <string name="download_this_gif">下载此动态图片</string>
+    <string name="download_this_novel">下载此小说</string>
+    <string name="copy">复制</string>
+    <string name="copied">已复制</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">╮(╯Д╰)╭ 撸至深出了点小情况\n可爱的小虫说翻就翻</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">未知异常</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新进入</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭应用</string>
+    <string name="customactivityoncrash_error_activity_error_details">让我看下</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">异常处理</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">已复制</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">堆栈跟踪信息</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="video1">日韩女优</string>
+    <string name="video2">欧美激情</string>
+    <string name="video3">偷拍自拍</string>
+    <string name="video4">成人动漫</string>
+    <string name="video5">经典三级</string>
+    <string name="video6">强奸乱伦</string>
+    <string name="video7">变态另类</string>
+    <string name="video8">制服丝袜</string>
+    <string name="video9">激情3P</string>
+
+    <string name="picture1">亚洲色图</string>
+    <string name="picture2">欧美色图</string>
+    <string name="picture3">偷窥自拍</string>
+    <string name="picture4">卡通动漫</string>
+    <string name="picture5">另类口味</string>
+    <string name="picture6">精品套图</string>
+    <string name="picture7">少妇熟女</string>
+    <string name="picture8">清纯唯美</string>
+    <string name="picture9">美腿丝袜</string>
+
+    <string name="text1">都市言情</string>
+    <string name="text2">校园春色</string>
+    <string name="text3">人妻女友</string>
+    <string name="text4">古典武侠</string>
+    <string name="text5">家庭乱伦</string>
+    <string name="text6">另类小说</string>
+    <string name="text7">性爱技巧</string>
+    <string name="text8">情色笑话</string>
+    <string name="text9">其它小说</string>
+    <string name="load_comics_fail">加载漫画失败</string>
+</resources>

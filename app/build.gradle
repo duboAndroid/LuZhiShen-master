@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "org.lvu"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 7
+        versionName "1.7"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    allprojects {
+        repositories {
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+def supportVersion = "25.1.1"
+def frescoVersion = "1.0.1"
+//def torrentStreamVersion = "2.1.0"
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':video_player')
+    compile "com.android.support:support-v4:${supportVersion}"
+    compile "com.android.support:support-vector-drawable:${supportVersion}"
+    compile "com.android.support:appcompat-v7:${supportVersion}"
+    compile "com.android.support:design:${supportVersion}"
+    compile "com.android.support:cardview-v7:${supportVersion}"
+    compile "com.android.support:recyclerview-v7:${supportVersion}"
+    //noinspection GradleDependency
+    //compile "com.android.support:palette-v7:${supportVersion}"//25.1.0 no works
+    //compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    compile 'org.jsoup:jsoup:1.10.2'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'cat.ereza:customactivityoncrash:1.5.0'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    compile 'com.balysv:material-ripple:1.0.2'
+    //compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.17'
+    //compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile "com.facebook.fresco:fresco:${frescoVersion}"
+    compile "com.facebook.fresco:animated-gif:${frescoVersion}"
+    compile 'jp.wasabeef:recyclerview-animators:2.2.5'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    //compile "com.github.se-bastiaan:TorrentStream-Android:${torrentStreamVersion}"
+    testCompile 'junit:junit:4.12'
+}
